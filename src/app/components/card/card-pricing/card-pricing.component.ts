@@ -12,6 +12,9 @@ export class CardPricingComponent implements OnInit {
 
 	@Input()
 	gamePrice:string=""
+
+	@Input()
+	gameType:string=""
   constructor() { }
 
   ngOnInit(): void {
